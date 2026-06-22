@@ -1,4 +1,4 @@
-FROM python:3.8.18-bullseye
+FROM python:3.10-bullseye
 
 ENV DEBIAN_FRONTEND=noninteractive
 
@@ -24,12 +24,18 @@ def safe_find(name):\n\
 ctypes.util.find_library = safe_find' > /usr/local/lib/python3.8/site-packages/sitecustomize.py
 
 RUN pip install \
-    numpy \
-    scipy \
-    pandas \
+    numpy==1.26.4 \
+    scipy==1.13.0 \
+    pandas==2.2.0 \
     tqdm \
     requests \
     scapy==2.4.3 \
     cicflowmeter==0.1.6 \
     jupyterlab \
-    ipykernel
+    ipykernel \
+    joblib==1.4.2 \
+    scikit-learn==1.5.0 \
+    catboost==1.2.10 \
+    lightgbm==4.6.0 \
+    xgboost==2.1.4
+
