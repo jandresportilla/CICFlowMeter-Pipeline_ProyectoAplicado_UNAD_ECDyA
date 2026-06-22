@@ -14,6 +14,9 @@ RUN apt-get update && apt-get install -y \
 RUN python -m pip install --upgrade pip
 
 
+# CREAR EL DIRECTORIO CORRECTO PRIMERO
+RUN mkdir -p /usr/local/lib/python3.10/site-packages/
+
 # 3. EL TRUCO MAESTRO: Crear un parche transparente para Python 3.8
 # Esto intercepta la llamada interna defectuosa de Scapy y la corrige automáticamente
 RUN echo 'import ctypes.util\n\
@@ -39,3 +42,4 @@ RUN pip install \
     lightgbm==4.6.0 \
     xgboost==2.1.4
 
+CMD ["jupyter", "lab", "--ip=0.0.0.0", "--allow-root", "--no-browser"]
