@@ -1,0 +1,3 @@
+pcap_files/*.pcap
+.tmp_cicflowmeter/
+csv_raw/*.csv
