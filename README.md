@@ -4,7 +4,10 @@
 
 # CICFlowMeter Pipeline - Aplicación del Objetivo 3 del Proyecto de Grado
 
-Analizar la capacidad de generalización del modelo con mayor eficacia mediante su evaluación en el conjunto de prueba y con datos no vistos del dataset CIC IoT 2023.
+##Analizar la capacidad de generalización del modelo con mayor eficacia mediante su evaluación en el conjunto de prueba y con datos no vistos del dataset CIC IoT 2023.
+
+<img width="629" height="556" alt="image" src="https://github.com/user-attachments/assets/e8490ed6-e695-471b-ba2d-b86a434b0f25" />
+
 
 Pipeline de la Data, desde la Transformación de un Paquekt Capture .pcap a un archivo de Variables Separadas por Comas .csv, para alli aplicar el Modelo Predictivo ya desarrolado en flujos de tráfico de red No vistos
 
