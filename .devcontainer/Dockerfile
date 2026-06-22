@@ -36,26 +36,14 @@ RUN cat /usr/local/lib/python3.10/site-packages/sitecustomize.py
 
 
 # 4. INSTALAR DEPENDENCIAS DE PYTHON
-RUN pip install \
-    numpy==1.26.4 \
-    scipy==1.13.0 \
-    pandas==2.2.0 \
-    tqdm \
-    requests \
-    scapy==2.4.3 \
-    cicflowmeter==0.1.6 \
-    jupyterlab \
-    ipykernel \
-    joblib==1.4.2 \
-    scikit-learn==1.5.0 \
-    catboost==1.2.10 \
-    lightgbm==4.6.0 \
-    xgboost==2.1.4
+COPY requirements.txt /tmp/requirements.txt
 
 
 # 5. VERIFICACIONES DE INSTALACIÓN
 # 5.1 Verificar Python
 RUN python --version
+
+RUN pip install --no-cache-dir -r /tmp/requirements.txt
 
 
 # 5.2 Verificar que el parche existe y funciona
