@@ -1,3 +1,7 @@
+[![Python 3.8.18](https://img.shields.io/badge/python-3.8.18-blue.svg)](https://www.python.org/downloads/release/python-3818/)
+[![Scapy 2.4.3](https://img.shields.io/badge/scapy-2.4.3-green.svg)](https://scapy.net/)
+[![CICFlowMeter](https://img.shields.io/badge/cicflowmeter-0.1.6-orange.svg)](https://pypi.org/project/cicflowmeter/)
+
 # CICFlowMeter Pipeline - Aplicación del Objetivo 3 del Proyecto de Grado
 
 Analizar la capacidad de generalización del modelo con mayor eficacia mediante su evaluación en el conjunto de prueba y con datos no vistos del dataset CIC IoT 2023.
@@ -20,11 +24,6 @@ La Finalidad es montar un devcontainer en GitHub Codespaces que use Python 3.8.1
 
       andres.portilla@unipamplona.edu.co
 
-
-
-[![Python 3.8.18](https://img.shields.io/badge/python-3.8.18-blue.svg)](https://www.python.org/downloads/release/python-3818/)
-[![Scapy 2.4.3](https://img.shields.io/badge/scapy-2.4.3-green.svg)](https://scapy.net/)
-[![CICFlowMeter](https://img.shields.io/badge/cicflowmeter-0.1.6-orange.svg)](https://pypi.org/project/cicflowmeter/)
 
 
 Desarrollado como Proyecto Aplicado, este entorno está diseñado para una **reproducibilidad absoluta** dentro de contenedores Docker y GitHub Codespaces. Ya que en servicio de nube Colab Google, esta limita por versiones de scrapy antiguas que requiere el cicflowmeter de la CIC de UNB
