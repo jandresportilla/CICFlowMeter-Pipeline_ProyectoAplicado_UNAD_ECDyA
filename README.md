@@ -6,6 +6,8 @@
 
 ##Analizar la capacidad de generalización del modelo con mayor eficacia mediante su evaluación en el conjunto de prueba y con datos no vistos del dataset CIC IoT 2023.
 
+**Producción / Inferencia (MLOps).**
+
 <img width="629" height="556" alt="image" src="https://github.com/user-attachments/assets/e8490ed6-e695-471b-ba2d-b86a434b0f25" />
 
 
