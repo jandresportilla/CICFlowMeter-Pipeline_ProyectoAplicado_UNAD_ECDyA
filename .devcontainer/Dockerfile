@@ -21,7 +21,7 @@ orig = ctypes.util.find_library\n\
 def safe_find(name):\n\
     if name == "libc": return orig("c")\n\
     return orig(name)\n\
-ctypes.util.find_library = safe_find' > /usr/local/lib/python3.8/site-packages/sitecustomize.py
+ctypes.util.find_library = safe_find' > /usr/local/lib/python3.10/site-packages/sitecustomize.py
 
 RUN pip install \
     numpy==1.26.4 \
