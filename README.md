@@ -30,6 +30,21 @@ La Finalidad es montar un devcontainer en GitHub Codespaces que use Python 3.8.1
       andres.portilla@unipamplona.edu.co
 
 
+## CICFlowMeter (formerly ISCXFlowMeter)
+#### CICFlowMeter is a network traffic flow generator and analyser.
+
+<img width="762" height="771" alt="image" src="https://github.com/user-attachments/assets/23350cb5-f29b-4175-82fa-d46141bff0ca" />
+<img width="1035" height="868" alt="image" src="https://github.com/user-attachments/assets/87638790-db87-4a2d-b621-8dab491d1b7a" />
+
+https://www.unb.ca/cic/research/applications.html
+
+Learn more about CICFlowMeter
+Arash Habibi Lashkari, Gerard Draper-Gil, Mohammad Saiful Islam Mamun and Ali A. Ghorbani, "Characterization of Tor Traffic Using Time Based Features", in the proceeding of the 3rd International Conference on Information System Security and Privacy, SCITEPRESS, Porto, Portugal, 2017.
+https://www.scitepress.org/PublicationsDetail.aspx?ID=g4gLnPa/2OM=&t=1
+
+Gerard Drapper Gil, Arash Habibi Lashkari, Mohammad Mamun, Ali A. Ghorbani, Characterization of Encrypted and VPN Traffic Using Time-Related Features", in Proceedings of the 2nd International Conference on Information Systems Security and Privacy (ICISSP 2016), pp.s 407-414, Italy, 2016.
+https://www.scitepress.org/PublicationsDetail.aspx?ID=cazNsYLjzhw=&t=1
+
 ---
 
 Desarrollado como Proyecto Aplicado, este entorno está diseñado para una **reproducibilidad absoluta** dentro de contenedores Docker y GitHub Codespaces. Ya que en servicio de nube Colab Google, esta limita por versiones de scrapy antiguas que requiere el cicflowmeter de la CIC de UNB
