@@ -101,7 +101,7 @@ El pipeline de la aplicación de los diferentes modelos de Clasificación Multic
 * LightGBM
 * CatBoost 
 * HistGradientBoosting
-Como los Random Forest, son tan pesados, Superiores a 2GB en su almacenamiento, se hace dificil su implemnetación en Nube, de manera Free. Pues la idea, en mi caso, no es pagar servicios cloud dedicados, o de Nube Privada.
+* Como los Random Forest, son tan pesados, Superiores a 2GB en su almacenamiento, se hace dificil su implemnetación en Nube, de manera Free. Pues la idea, en mi caso, no es pagar servicios cloud dedicados, o de Nube Privada.
 
 
 ## Reflexiones de Aplicación a muestras de ejemplo y Transición a MLOps
