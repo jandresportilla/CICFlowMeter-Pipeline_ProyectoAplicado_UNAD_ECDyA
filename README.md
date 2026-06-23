@@ -11,7 +11,7 @@
 <img width="629" height="556" alt="image" src="https://github.com/user-attachments/assets/e8490ed6-e695-471b-ba2d-b86a434b0f25" />
 
 
-### Pipeline de Datos: Abarca desde la transformación de un archivo de captura de red (Packet Capture, `.pcap`) hacia un formato de valores separados por comas (`.csv`), con el propósito de aplicar el modelo predictivo previamente desarrollado sobre nuevos flujos de tráfico de red no vistos.
+### Pipeline de Datos: Abarca desde la transformación de un archivo de captura de red (Packet Capture, `.pcap`) hacia un formato de valores separados por comas (`.csv`), con el propósito de aplicar el modelo predictivo previamente desarrollado sobre nuevos flujos de tráfico de redes IoT no vistos.
 
 La Finalidad es montar un devcontainer en GitHub Codespaces que use Python 3.8.18, scapy 2.4.3 y cicflowmeter 0.1.6, igual que en mi Ubuntu on-premises 100% funcional
 
