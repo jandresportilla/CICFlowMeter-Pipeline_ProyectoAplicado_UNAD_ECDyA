@@ -2,3 +2,6 @@
 *.pcap filter=lfs diff=lfs merge=lfs -text
 outputs/models/predicciones_finales.csv filter=lfs diff=lfs merge=lfs -text
 outputs/models/predicciones_finales02.csv filter=lfs diff=lfs merge=lfs -text
+outputs/models/Predicciones_Finales02.csv filter=lfs diff=lfs merge=lfs -text
+outputs/models/Predicciones_FinalesDEF.csv filter=lfs diff=lfs merge=lfs -text
+outputs/models/Predicciones_Finales_DEF.csv filter=lfs diff=lfs merge=lfs -text
