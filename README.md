@@ -30,6 +30,7 @@ La Finalidad es montar un devcontainer en GitHub Codespaces que use Python 3.8.1
       andres.portilla@unipamplona.edu.co
 
 
+---
 
 Desarrollado como Proyecto Aplicado, este entorno está diseñado para una **reproducibilidad absoluta** dentro de contenedores Docker y GitHub Codespaces. Ya que en servicio de nube Colab Google, esta limita por versiones de scrapy antiguas que requiere el cicflowmeter de la CIC de UNB
 
@@ -53,8 +54,9 @@ CalledProcessError                        Traceback (most recent call last)
     247     def _run_script(self, p, cell, to_close):
 
 CalledProcessError: Command 'b'set -e\n\nexport MAMBA_ROOT_PREFIX=/content/micromamba\n\nPCAP="/content/drive/MyDrive/TG-Esp-DataScience-Analytics/pcap_files/DoS-TCP_Flood10.pcap"\nOUTDIR="/content/cicflow_work"\nmkdir -p "$OUTDIR"\n\nrm -f "$OUTDIR/DoS-TCP_Flood10.csv"\n\n/content/bin/micromamba run -n cic38 cicflowmeter -f "$PCAP" -c "$OUTDIR/DoS-TCP_Flood10.csv"\n\necho "Archivo generado:"\nls -lh "$OUTDIR/DoS-TCP_Flood10.csv"\necho\necho "Primeras l\xc3\xadneas:"\nhead -n 5 "$OUTDIR/DoS-TCP_Flood10.csv"\n'' returned non-zero exit status 1.
-<img width="1818" height="858" alt="image" src="https://github.com/user-attachments/assets/60a93243-c3a1-4c92-afd1-8379105b2223" />
 
+<img width="1818" height="858" alt="image" src="https://github.com/user-attachments/assets/60a93243-c3a1-4c92-afd1-8379105b2223" />
+---
 
 
 
@@ -87,11 +89,12 @@ Como los Random Forest, son tan pesados, Superiores a 2GB en su almacenamiento, 
 
 ## Reflexiones de Aplicación a muestras de ejemplo y Transición a MLOps
 
-La materialización de este pipeline en un entorno Cloud interactivo nació de un objetivo claro: trascender las tradicionales diapositivas de sustentación. La intención es proporcionar a los jurados un enlace directo en su navegador para realizar una defensa interactiva, convirtiendo los Notebooks de Jupyter en una herramienta metodológica viva que expone paso a paso la arquitectura de datos y el modelo predictivo.
+La materialización de este pipeline en un entorno Cloud interactivo nació de un planteamiento propuesto de manera personal, de manera clara: trascender las tradicionales diapositivas de sustentación. La intención es proporcionar tanto a los jurados, como al director, como dejar plasmado en mis repositorios Github que debo ir creciendo, a modo de portafolio y proyectos trabajados, un enlace directo en su navegador para realizar una defensa interactiva, convirtiendo los Notebooks de Jupyter en una herramienta metodológica viva que expone paso a paso de la arquitectura y ciencia de datos y el modelo predictivo en total funcionalidad y aplicado.
 
-Además, esta decisión responde a una estrategia de mitigación de riesgos tecnológicos. Aunque el proyecto fue diseñado y desarrollado originalmente en un entorno on-premises sobre Linux (Ubuntu) utilizando el IDE Spyder, las plataformas de videoconferencia como MS Teams suelen presentar inestabilidades históricas en sistemas UNIX durante sesiones de alta demanda. Para garantizar la plena certeza de la conexión durante la sustentación virtual, la presentación se realizará desde un equipo local con Windows 11, delegando todo el cómputo intensivo y las dependencias de red a la nube.
+Además, esta decisión responde a una estrategia de mitigación de riesgos tecnológicos. Aunque el proyecto del Modelo de aprendizaje automatico supervisado fue diseñado y desarrollado originalmente en un entorno on-premises sobre Linux (Ubuntu) utilizando el IDE Spyder, las plataformas de videoconferencia como MS Teams suelen presentar inestabilidades históricas en sistemas UNIX durante sesiones de alta demanda. Para garantizar la plena certeza de la conexión durante la sustentación virtual, la presentación se realizará desde un equipo local con Windows 11, delegando todo el cómputo intensivo y las dependencias de red a la nube.
 
-De esta forma, la implementación se eleva a un escenario de MLOps a pequeña escala, dando alcance directo y práctico al tercer objetivo específico del proyecto: comprobar la eficacia y el poder de generalización del modelo frente a muestras de tráfico masivo no vistas, ejecutando inferencias en un escenario de tiempo cercano al real (near real-time).
+De esta forma, la implementación se eleva a un escenario de MLOps a muy pequeña escala, dando alcance directo y práctico al tercer objetivo específico del proyecto: comprobar la eficacia y el poder de generalización del modelo frente a muestras de tráfico masivo no vistas, ejecutando inferencias en un escenario de tiempo cercano al real (near real-time).
+
 
 ### El Reto Técnico: De Google Colab a Contenedores Docker
 La migración de un entorno local a la nube representó el mayor desafío técnico de esta fase. Un despliegue que toma apenas un par de días en una máquina Ubuntu local, requirió más de una semana de investigación y adaptación en servicios Cloud.
