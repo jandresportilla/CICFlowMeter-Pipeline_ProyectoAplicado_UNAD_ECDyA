@@ -11,7 +11,7 @@
 <img width="629" height="556" alt="image" src="https://github.com/user-attachments/assets/e8490ed6-e695-471b-ba2d-b86a434b0f25" />
 
 
-Pipeline de la Data, desde la Transformación de un Paquekt Capture .pcap a un archivo de Variables Separadas por Comas .csv, para alli aplicar el Modelo Predictivo ya desarrolado en flujos de tráfico de red No vistos
+### Pipeline de Datos: Abarca desde la transformación de un archivo de captura de red (Packet Capture, `.pcap`) hacia un formato de valores separados por comas (`.csv`), con el propósito de aplicar el modelo predictivo previamente desarrollado sobre nuevos flujos de tráfico de red no vistos.
 
 La Finalidad es montar un devcontainer en GitHub Codespaces que use Python 3.8.18, scapy 2.4.3 y cicflowmeter 0.1.6, igual que en mi Ubuntu on-premises 100% funcional
 
@@ -29,6 +29,7 @@ La Finalidad es montar un devcontainer en GitHub Codespaces que use Python 3.8.1
 
       andres.portilla@unipamplona.edu.co
 
+---
 
 ## CICFlowMeter (formerly ISCXFlowMeter)
 #### CICFlowMeter is a network traffic flow generator and analyser.
@@ -71,6 +72,7 @@ CalledProcessError                        Traceback (most recent call last)
 CalledProcessError: Command 'b'set -e\n\nexport MAMBA_ROOT_PREFIX=/content/micromamba\n\nPCAP="/content/drive/MyDrive/TG-Esp-DataScience-Analytics/pcap_files/DoS-TCP_Flood10.pcap"\nOUTDIR="/content/cicflow_work"\nmkdir -p "$OUTDIR"\n\nrm -f "$OUTDIR/DoS-TCP_Flood10.csv"\n\n/content/bin/micromamba run -n cic38 cicflowmeter -f "$PCAP" -c "$OUTDIR/DoS-TCP_Flood10.csv"\n\necho "Archivo generado:"\nls -lh "$OUTDIR/DoS-TCP_Flood10.csv"\necho\necho "Primeras l\xc3\xadneas:"\nhead -n 5 "$OUTDIR/DoS-TCP_Flood10.csv"\n'' returned non-zero exit status 1.
 
 <img width="1818" height="858" alt="image" src="https://github.com/user-attachments/assets/60a93243-c3a1-4c92-afd1-8379105b2223" />
+
 ---
 
 
